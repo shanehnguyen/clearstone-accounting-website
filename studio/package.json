@@ -1,0 +1,25 @@
+{
+  "name": "clearstone-studio",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "sanity dev",
+    "build": "sanity build",
+    "deploy": "sanity deploy",
+    "typegen": "sanity typegen generate"
+  },
+  "dependencies": {
+    "@sanity/client": "^6.28.0",
+    "@sanity/icons": "^3.5.3",
+    "@sanity/vision": "^3.75.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sanity": "^3.75.0",
+    "styled-components": "^6.1.14"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.23",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.3"
+  }
+}
